@@ -1,0 +1,11 @@
+Create daily financial deposits and withdrawals for 10 customers with age 12-60  for 10 days with transactions happening in multiple geographic locations within New York City ( '800 Water Street Branch, Downtown New York', 
+    '750 Madison Avenue, Mid Town New York', 
+    'Grand Central Station ATM, Mid Town New York', 
+    '300 Houston Avenue branch, Downtown New York', 
+    '100 Wall Street Branch, Downtown New York', 
+    '360 Convent Avenue Branch, Uptown New York') 
+on the same day.  Each transaction to not exceed $5000 The total number of transaction should be 10000. 
+For only 6 customerName the daily sum(TransactionAmount)<10000
+
+Transactions should have datetime information
+The data fields are TransactionDate,	TransactionID,	CustomerID,	CustomerName,	CustomerGender,	CustomerAge,	TransactionAmount,	transactionType,	TransactionLocation
